@@ -32,9 +32,9 @@ const showElements = (urlInfo) => {
     </div>
       <div class="info">
         <p class="distance1">${gio.name.first} ${gio.name.last} </p>
-        <p> AGE: ${gio.dob.age} FROM: ${gio.location.country} </p>
+        <p> AGE: ${gio.dob.age} ${gio.location.country} </p>
         <p> PHONE: ${gio.phone} </p>
-        <p> EMAIL: ${gio.email} </p>
+        <p> ${gio.email} </p>
       </div>
     </div>
   </main>`
